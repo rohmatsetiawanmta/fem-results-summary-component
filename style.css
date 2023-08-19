@@ -195,3 +195,65 @@
   background: var(--gradient-1);
   cursor: pointer;
 }
+
+@media screen and (max-width: 750px) {
+  .app {
+    background: white;
+    display: block;
+  }
+
+  .container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 32px 32px;
+  }
+
+  .result {
+    height: auto;
+    width: 100%;
+    border-radius: 0px 0px 32px 32px;
+    padding: 24px 20px 40px;
+    box-sizing: border-box;
+  }
+
+  .result-head {
+    font-size: 18px;
+  }
+
+  .result-score-container {
+    width: 140px;
+    height: 140px;
+    margin: 24px auto;
+  }
+
+  .result-score {
+    font-size: 56px;
+  }
+
+  .max-score,
+  .detail,
+  .summary-item,
+  .summary-score {
+    font-size: 16px;
+  }
+
+  .status {
+    font-size: 24px;
+  }
+
+  .summary-item-container-outer,
+  .summary-item-container-inner,
+  .button {
+    width: 100%;
+  }
+
+  .summary-head {
+    font-size: 18px;
+  }
+
+  .button {
+    margin-bottom: 30px;
+  }
+}
